@@ -8,7 +8,7 @@ import aiohttp
 import aiofiles
 from bs4 import BeautifulSoup
 
-from utils.rate_limiter import RateLimiter
+from rate_limiter import RateLimiter
 
 
 class AsyncioOrleansScraper:
